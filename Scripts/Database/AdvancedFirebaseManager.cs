@@ -45,5 +45,6 @@ public class AdvancedFirebaseManager : MonoBehaviour
         Password = AesSettings.Password;
         
         Debug.Log("Initialized");
+        isAlreadyInited = true;
     }
 }
